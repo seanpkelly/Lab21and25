@@ -1,0 +1,13 @@
+﻿@model Movie
+
+
+@{
+    ViewData["Title"] = "Summary";
+}
+
+<h1>Summary</h1>
+
+<h2>@Model.Title is Registered!</h2>
+<h2>Here's a little bit of info about the movie registered: @Model.Title stars @Model.Actors, & was directed by @Model.Directors. </h2>
+<h2>@Model.Title was released on @Model.Year.ToShortDateString() and from the looks of it has at least one fan.</h2>
+<h2>Thanks for that, take care!</h2>

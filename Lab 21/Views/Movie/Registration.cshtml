@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Please input the neccessary info: \n"] = "Registration";
+}
+
+
+@model Movie
+
+<h1>Index</h1>
+@Html.ValidationSummary()
+
+<form action="../Movie/Summary" method="post">
+
+    @Html.LabelFor(m => m.Title)
+    @Html.ValidationMessageFor(m => m.Title)
+
+    <input type="number" name="ID" placeholder="Id"/>
+    <input type="text" name="title" placeholder="Title" />
+    <input type="text" name="genre" placeholder="Genre"/>
+    <input type="date" name="Year" placeholder="Year"/>
+    <input type="text" name="Actors"  placeholder="Actors"/>
+    <input type="text" name="Directors"placeholder="Directors" />
+    <input type="submit"/>
+
+</form>
