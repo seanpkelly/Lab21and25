@@ -6074,11 +6074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yllek\\source\\repos\\Lab 21\\Lab 21\\Lab 21.csproj",
+      "projectUniqueName": "C:\\Users\\yllek\\OneDrive\\Desktop\\Movie Session Lab\\Lab 21\\Lab 21.csproj",
       "projectName": "Lab 21",
-      "projectPath": "C:\\Users\\yllek\\source\\repos\\Lab 21\\Lab 21\\Lab 21.csproj",
+      "projectPath": "C:\\Users\\yllek\\OneDrive\\Desktop\\Movie Session Lab\\Lab 21\\Lab 21.csproj",
       "packagesPath": "C:\\Users\\yllek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yllek\\source\\repos\\Lab 21\\Lab 21\\obj\\",
+      "outputPath": "C:\\Users\\yllek\\OneDrive\\Desktop\\Movie Session Lab\\Lab 21\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yllek\\AppData\\Roaming\\NuGet\\NuGet.Config",

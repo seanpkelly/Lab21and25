@@ -1,5 +1,8 @@
 ﻿using Lab_21.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace Lab_21.Controllers
 {
@@ -7,10 +10,10 @@ namespace Lab_21.Controllers
     {
         public IActionResult Registration()
         {
-
-
             return View(new Movie());
         }
+
+    
 
         public IActionResult Summary(Movie movie)
         {
